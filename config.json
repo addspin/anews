@@ -1,0 +1,15 @@
+{
+    "database": {
+        "path": "db/news.db"
+    },
+    "server": {
+        "port": 8080
+    },
+    "rss": {
+        "update_period": 5,
+        "feeds": [
+            "http://static.feed.rbc.ru/rbc/logical/footer/news.rss",
+            "https://habr.com/ru/rss/all/all/"
+        ]
+    }
+}
